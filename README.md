@@ -1,0 +1,1 @@
+This student-management-system project is a simple CRUD application for Student Management System. Written using Java and Spring Boot MVC, Spring Data JPA and MYSQL using which one can add new student to the list, see all the student, edit existing student and delete the student.
