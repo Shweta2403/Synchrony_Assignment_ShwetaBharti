@@ -1,0 +1,24 @@
+
+.action-btn {
+    margin-right: 10px; 
+  }
+  
+  .action-btn:hover {
+    opacity: 0.9;
+  }
+  
+ 
+  .table {
+    margin-top: 20px; 
+  }
+  
+  .thead-dark th {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+  }
+  
+  tbody td {
+    text-align: center; 
+  }
+  
