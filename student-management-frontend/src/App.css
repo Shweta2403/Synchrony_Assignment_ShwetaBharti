@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+/* Body styling */
+body {
+  background-color: #f8f9fa; /* Light gray background for the whole page */
+  font-family: "Arial", sans-serif; /* Clean and professional font */
+  color: #333; /* Dark gray for text */
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Container styling */
+.container {
+  background-color: #fff; /* White background for the main container */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Header styling */
+h1 {
+  color: #007bff; /* Primary blue color for the header */
+  font-weight: 700;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+p.lead {
+  color: #6c757d; /* Muted text color for subheading */
+}
+
+/* Button styling */
+.btn-primary,
+.btn-secondary {
+  background-color: #007bff; /* Primary blue color for buttons */
+  border: none;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  background-color: #0056b3; /* Slightly darker blue for hover effect */
+}
+
+/* Table styling */
+.table {
+  background-color: #ffffff; /* White background for the table */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Minimal shadow */
+  overflow: hidden;
+}
+
+.thead-dark th {
+  background-color: #343a40; /* Dark header */
+  color: #fff;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1; /* Light gray hover effect on table rows */
+}
+
+/* Input field styling */
+.form-control {
+  border: 1px solid #ced4da; /* Light gray border */
+  border-radius: 4px; /* Slightly rounded corners */
+  padding: 10px;
+}
+
+/* Spacing between elements */
+.mb-4,
+.mb-3,
+.mb-2 {
+  margin-bottom: 1rem !important;
+}
+
+/* SearchBar */
+.search-bar {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Action buttons in the table */
+.action-btn {
+  margin-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Add a subtle border and background color to StudentForm */
+.student-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin-bottom: 20px;
+}
+
+/* Footer styling */
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #6c757d;
+}
+
+.view-all-btn {
+  margin-left: 10px; /* Adjust spacing as needed */
+}
+
+.heading {
+  font-family: "Roboto", sans-serif; /* Use a clean and professional font */
+  font-size: 3rem; /* Adjust size for prominence */
+  color: #2c3e50; /* Professional dark blue */
+  font-weight: bold; /* Make it bold */
+  letter-spacing: 1px; /* Add some spacing between letters */
+  text-transform: uppercase; /* Capitalize the heading for emphasis */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin-bottom: 1rem; /* Add spacing below the heading */
 }
